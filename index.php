@@ -11,10 +11,10 @@ $product2->setPosition('A8');
 var_dump($product2);
 echo $product2->getPosition();
 
-$product3 = new Prodotto('Ideapad 3','Lenovo','Notebook');
+$product3 = new Portatili('Ideapad 3','Lenovo','Notebook','15,6 pollici','516 gb','Nvidia GeForce');
 var_dump($product3);
 
-$product4 = new Prodotto('Vivabook 15','Asus','Notebook');
+$product4 = new Portatili('Vivabook 15','Asus','Notebook','14 pollici','256 gb','Radeon');
 var_dump($product4);
 
 $product5 = new Prodotto('Playstation 4','Sony','Console');
