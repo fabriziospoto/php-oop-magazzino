@@ -25,6 +25,15 @@ class Gamestation extends Prodotto {
     public $potenza;
     public $memoria;
     public $comandi;
+
+    public function __construct($_modello, $_marchio, $_tipo ,$_potenza, $_memoria, $_comandi){
+        $this->modello = $_modello;
+        $this->marchio = $_marchio;
+        $this->tipo = $_tipo;
+        $this->potenza = $_potenza;
+        $this->memoria = $_memoria;
+        $this->comandi = $_comandi;
+    }
 }
 class Cuffie extends Prodotto {
     public $potenza;

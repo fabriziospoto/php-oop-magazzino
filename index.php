@@ -17,7 +17,7 @@ var_dump($product3);
 $product4 = new Portatili('Vivabook 15','Asus','Notebook','14 pollici','256 gb','Radeon');
 var_dump($product4);
 
-$product5 = new Prodotto('Playstation 4','Sony','Console');
+$product5 = new Gamestation('Playstation 4','Sony','Console','1,84 TFLOPS','256 gb','Wireless');
 var_dump($product5);
 
 $product6 = new Prodotto('Airpod','Apple','Cuffie');
